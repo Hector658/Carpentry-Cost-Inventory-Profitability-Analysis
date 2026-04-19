@@ -96,11 +96,22 @@ This view simplifies querying and enables efficient financial analysis.
   - Cost distribution by category  
   - Client-level performance  
 
+
+
+
+
+
 ##  Dashboard Preview
 
+<img align="center" width="550" height="450" src="Captura de pantalla 2026-04-19 132553.png">
 
 
----
+
+
+
+
+
+
 
 ##  Key Insights
 
@@ -153,3 +164,8 @@ This project is licensed under the MIT License.
 
 ##  Author
 Héctor López
+
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![SQL](https://img.shields.io/badge/SQL-SQLite-green)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
