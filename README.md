@@ -94,7 +94,7 @@ This view simplifies querying and enables efficient financial analysis.
 - Detected loss-making projects  
 - Evaluated performance by client and product type  
 
----
+
 
 #### MOST PROFITABLE PROJECTS
 ```sql
@@ -110,6 +110,9 @@ FROM project_analysis
 WHERE PROFIT < 0;
 ```
 
+
+
+---
 ### 5. Visualization
 - Interactive dashboard developed in Power BI  
 - Key metrics:
