@@ -1,5 +1,8 @@
 # Carpentry-Cost-Inventory-Profitability-Analysis
 
+
+
+
 ## Overview
 
 This project transforms unstructured carpentry data into a structured dataset and analyzes project-level financial performance.
@@ -18,6 +21,8 @@ The analysis identifies key cost drivers, evaluates profitability across project
 
 ## Dataset
 The dataset was built from raw Excel files with multiple sheets and inconsistent formats.
+
+<img align="center" width="550" height="450" src="ss_tbles.PNG">
 
 ### Key Fields
 
@@ -103,8 +108,17 @@ This view simplifies querying and enables efficient financial analysis.
 
 ##  Dashboard Preview
 
-<img align="center" width="550" height="450" src="Captura de pantalla 2026-04-19 132553.png">
+###  Business Overview
 
+<img align="center" width="550" height="450" src="Captura de pantalla 2026-04-19 145340.png">
+
+###  Cost Structure
+
+<img align="center" width="550" height="450" src="Captura de pantalla 2026-04-19 143744.png">
+
+## Complete Dashboard
+<img align="center" width="550" height="450" src="Captura de pantalla 2026-04-19 132553.png">
+The dashboard highlights overall profitability and identifies material costs as the primary expense driver.
 
 
 
