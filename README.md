@@ -85,15 +85,8 @@ FROM projects;
 ```
 
 
+
 This view simplifies querying and enables efficient financial analysis.
-
----
-
-### 4. Profitability Analysis
-- Identified most and least profitable projects  
-- Detected loss-making projects  
-- Evaluated performance by client and product type  
-
 
 
 #### MOST PROFITABLE PROJECTS
@@ -109,6 +102,24 @@ SELECT PROJECT_NAME, PROFIT
 FROM project_analysis
 WHERE PROFIT < 0;
 ```
+#### REVENUE BY CLIENT
+```sql
+SELECT
+    CLIENT,
+    SUM(PRICE) AS TOTAL_REVENUE
+FROM project_analysis
+GROUP BY CLIENT
+ORDER BY TOTAL_REVENUE DESC;
+```
+
+
+---
+
+### 4. Profitability Analysis
+- Identified most and least profitable projects  
+- Detected loss-making projects  
+- Evaluated performance by client and product type  
+
 
 
 
