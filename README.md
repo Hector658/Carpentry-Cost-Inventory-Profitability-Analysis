@@ -24,6 +24,9 @@ The dataset was built from raw Excel files with multiple sheets and inconsistent
 
 <img align="center" width="550" height="450" src="ss_tbles.PNG">
 
+This structure required building a dynamic data extraction process to transform multiple inconsistent tables into a standardized dataset for analysis.
+
+
 ### Key Fields
 
 #### Project Information
@@ -93,6 +96,20 @@ This view simplifies querying and enables efficient financial analysis.
 
 ---
 
+#### MOST PROFITABLE PROJECTS
+```sql
+SELECT PROJECT_NAME, PROFIT
+FROM project_analysis
+ORDER BY PROFIT DESC;
+```
+
+#### LOSS MAKING PROJECTS
+```sql
+SELECT PROJECT_NAME, PROFIT
+FROM project_analysis
+WHERE PROFIT < 0;
+```
+
 ### 5. Visualization
 - Interactive dashboard developed in Power BI  
 - Key metrics:
@@ -130,7 +147,7 @@ The dashboard highlights overall profitability and identifies material costs as 
 ##  Key Insights
 
 - The business generated **~524K in revenue** with **~316K in costs**, resulting in **~208K profit (~40% margin)**  
-- Revenue is highly concentrated in a small number of clients, indicating potential dependency risk  
+- A small number of clients account for the majority of total revenue, indicating high client dependency 
 - Raw materials (especially wood and finishes) represent the majority of total costs  
 - Profitability varies across projects, suggesting opportunities for pricing standardization  
 - High-cost projects drive revenue but also introduce higher variability in margins  
