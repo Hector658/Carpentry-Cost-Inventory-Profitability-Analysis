@@ -168,6 +168,16 @@ The dashboard highlights overall profitability and identifies material costs as 
 
 ---
 
+##  Business Impact
+
+This analysis provides actionable insights to:
+- Improve pricing strategies across projects  
+- Reduce dependency on high-revenue clients  
+- Optimize material usage and cost efficiency
+
+
+
+---
 ##  Tech Stack
 - Python (Pandas, NumPy)  
 - SQLite  
